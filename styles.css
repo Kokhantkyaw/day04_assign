@@ -1,0 +1,34 @@
+#submit_btn_td{
+    text-align: center;
+    padding: 20px;
+}
+
+#submit_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#submit_btn:hover{
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.textfield{
+    width: 250px;
+    height: 25px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.mandatory{
+    color: red;
+}

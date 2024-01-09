@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script> 
+    </head>
+    <body>
+        <!--<div id="parent_holder">-->
+            <table>
+                <form>
+                    <tr>
+                        <td>
+                            <label for="first_name">First Name</label>
+                            <label class="mandatory">*</label>
+                        </td>
+                        <td>
+                            <input type="text" id="first_name" class="textfield" onchange="validateForm()">
+                            <label id="first_name_warning" class="mandatory" style="display: none;">First Name is Required.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="last_name">Last Name</label>
+                            <label class="mandatory">*</label>
+                        </td>
+                        <td>
+                            <input type="text" id="last_name" class="textfield" onchange="validateForm()">
+                            <label id="last_name_warning" class="mandatory" style="display: none;">Last Name is Required.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="user_id">ID</label>
+                            <label class="mandatory">*</label>
+                        </td>
+                        <td>
+                            <input type="text" id="user_id" class="textfield" onchange="validateForm()">
+                            <label id="user_id_warning" class="mandatory" style="display: none;">ID is Required.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                            <label class="mandatory">*</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" class="textfield" onchange="validateForm()">
+                            <label id="email_warning" class="mandatory" style="display: none;">Email is Required.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                            <label class="mandatory">*</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password" class="textfield" onchange="validateForm()">
+                            <label id="password_warning" class="mandatory" style="display: none;">Password is Required.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="confirm_password">Confirm Password</label>
+                            <label class="mandatory">*</label>
+                        </td>
+                        <td>
+                            <input type="password" id="confirm_password" class="textfield" onchange="validateForm()">
+                            <label id="confirm_password_warning" class="mandatory" style="display: none;">Confirm Password is Required.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="submit_btn_td">
+                            <input type="button" value="Submit" id="submit_btn" onclick="validateForm()">
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        <!-- </div> -->
+    </body>
+</html>
